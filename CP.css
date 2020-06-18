@@ -1,0 +1,113 @@
+body{
+
+  background-position:  center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+
+}
+
+.image3 {
+width: 50px;
+height: 50px;
+}
+
+.robImage{
+
+  width: 172.82px;
+  height: 228.69px;
+  top : 21%;
+  left: 59.6%;
+  transform: translate(4.9%,15%);
+}
+
+
+.t1{
+
+    height: 60px;
+    color: #ffff;
+    font-family: "Signika Negative";
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+
+}
+
+.butt3:hover {background-color:#B50000;}
+
+
+button{
+  border-radius: 50%;
+  border: none;
+  background: none;
+  color: white;
+
+}
+
+.butt1 {
+  position: absolute;
+  top: 40%;
+  left:50% ;
+  transform: translate(-560%,-350%);
+}
+
+
+.butt2 {
+  position: absolute;
+  top: 50%;
+  left:30% ;
+  transform: translate(-670%,-210%);
+
+}
+
+
+.butt3 {
+  position: absolute;
+  top: 50%;
+  left:50% ;
+  transform: translate(-576%,-210%);
+
+
+}
+
+.butt4 {
+  position: absolute;
+  top: 50%;
+  left:30% ;
+  transform: translate(-480%,-210%);
+}
+
+
+.butt5 {
+  position: absolute;
+  top: 40%;
+  left:50% ;
+  transform: translate(-590%,-80%);}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 0.4px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 62px;
+  background-color: #F1F1F1;
+  color: #ffff;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 11px;
+  color: black;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
